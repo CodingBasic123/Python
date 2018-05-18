@@ -4,6 +4,9 @@
 # any value of a key can reference another key:value pair from within the same
 # dictionary. The reference is done with string formating, which gets evaluated
 # and returns the proper datatype.
+# Example:
+#   myDictionary = dic({"firstKey": "valueToRef", "secondKey": "%(firstKey)s"})
+#   print(myDictionary['secondKey'])  # outputs 'valueToRef'
 """
 
 class dic(dict):
