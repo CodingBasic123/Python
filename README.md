@@ -1,2 +1,2 @@
 # Python
-Things I make in Python. Helper Classes, scripts, and such.
+Things I make in Python.
